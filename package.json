@@ -14,5 +14,9 @@
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "eslint-plugin-import": "^2.31.0"
   }
 }
