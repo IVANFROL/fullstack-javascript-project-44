@@ -1,4 +1,4 @@
-# Brain Games
+# Mind Games
 
 "Mind Games" is a set of five console games based on popular mobile apps for pumping up the brain. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to play it again. Each game is described and demonstrated below.
 
@@ -86,3 +86,10 @@ brain-gcd
 
 ![WIN:](images/win-gcd.png)
 ![LOSS:](images/loss-gcd.png)
+
+```bash
+brain-progression
+```
+
+![WIN:](images/win-progression.png)
+![LOSS:](images/loss-progression.png)
