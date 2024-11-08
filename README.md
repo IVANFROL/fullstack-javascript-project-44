@@ -70,6 +70,7 @@ npm install -g
 
 To start the game, use the following command:
 
+1. **Determining an even number.**
 ```bash
 brain-even
 ```
@@ -77,6 +78,7 @@ brain-even
 ![WIN:](images/win-even.png)
 ![LOSS:](images/loss-even.png)
 
+2. **Determining a prime number.**
 ```bash
 brain-calc
 ```
@@ -84,6 +86,7 @@ brain-calc
 ![WIN:](images/win-calc.png)
 ![LOSS:](images/loss-calc.png)
 
+3. **Calculator. Arithmetic expressions that need to be calculated.**
 ```bash
 brain-gcd
 ```
@@ -91,6 +94,7 @@ brain-gcd
 ![WIN:](images/win-gcd.png)
 ![LOSS:](images/loss-gcd.png)
 
+4. **Progression. Finding missing numbers in a sequence of numbers.**
 ```bash
 brain-progression
 ```
@@ -98,6 +102,7 @@ brain-progression
 ![WIN:](images/win-progression.png)
 ![LOSS:](images/loss-progression.png)
 
+5. **Determining the greatest common divisor.**
 ```bash
 brain-prime
 ```
