@@ -1,22 +1,22 @@
-import randomNumber from "../utils.js";
-import startGames from "../index.js";
+import randomNumber from '../utils.js';
+import startGames from '../index.js';
 
 const resultExpression = (firstValue, operator, secondValue) => {
   switch (operator) {
-    case "+":
+    case '+':
       return firstValue + secondValue;
-    case "-":
+    case '-':
       return firstValue - secondValue;
-    case "*":
+    case '*':
       return firstValue * secondValue;
     default:
       throw new Error(`Unknown operator: '${operator}'!`);
   }
 };
 
-const operators = ["+", "-", "*"];
+const operators = ['+', '-', '*'];
 
-const gamesDescrip = "What is the result of the expression?";
+const gamesDescrip = 'What is the result of the expression?';
 
 const generateRoundsData = () => {
   const firstNumber = randomNumber(1, 25);
@@ -27,7 +27,7 @@ const generateRoundsData = () => {
   const resultOfExpression = resultExpression(
     firstNumber,
     operator,
-    secondNumber
+    secondNumber,
   );
   const correctAnswer = resultOfExpression.toString();
 

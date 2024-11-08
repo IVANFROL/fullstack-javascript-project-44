@@ -79,3 +79,10 @@ brain-calc
 
 ![WIN:](images/win-calc.png)
 ![LOSS:](images/loss-calc.png)
+
+```bash
+brain-gcd
+```
+
+![WIN:](images/win-gcd.png)
+![LOSS:](images/loss-gcd.png)
