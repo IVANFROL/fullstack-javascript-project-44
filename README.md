@@ -39,6 +39,10 @@ To run the "Mind Games" project, you need to have Node.js installed on your syst
 
 [![Actions Status](https://github.com/IVANFROL/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/IVANFROL/fullstack-javascript-project-44/actions)
 
+## Maintainability Badge
+
+<a href="https://codeclimate.com/github/IVANFROL/fullstack-javascript-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/3580aa870286d90d713b/maintainability" /></a>
+
 ## Installation
 
 ### Cloning the Repository
@@ -93,3 +97,10 @@ brain-progression
 
 ![WIN:](images/win-progression.png)
 ![LOSS:](images/loss-progression.png)
+
+```bash
+brain-prime
+```
+
+![WIN:](images/win-prime.png)
+![LOSS:](images/loss-prime.png)
