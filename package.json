@@ -1,23 +1,32 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/IVANFROL/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/IVANFROL/fullstack-javascript-project-44/actions)",
-  "main": "index.js",
   "type": "module",
+  "description": "[![Actions Status](https://github.com/AleksandrWoW/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AleksandrWoW/frontend-project-44/actions)",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ivan Koreneets",
   "license": "ISC",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+  "bugs": {
+    "url": "https://github.com/IVANFROL/fullstack-javascript-project-44?tab=readme-ov-file"
   },
+  "homepage": "https://github.com/IVANFROL/fullstack-javascript-project-44?tab=readme-ov-file",
   "dependencies": {
+    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^9.14.0",
-    "eslint-plugin-import": "^2.31.0"
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.2.5"
   }
 }
