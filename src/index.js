@@ -1,11 +1,11 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 const roundsCount = 3; // Системная настройка: количество раундов
 
 export default (generateRounds, gamesDescrip) => {
-  console.log("Welcome to the Brain Games!");
+  console.log('Welcome to the Brain Games!');
 
-  const nameUser = readlineSync.question("May I have your name? ");
+  const nameUser = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameUser}!`);
 
   console.log(gamesDescrip);
@@ -16,17 +16,17 @@ export default (generateRounds, gamesDescrip) => {
 
     console.log(`Question: ${question}`);
 
-    const youAnswer = readlineSync.question("Your answer: ");
+    const youAnswer = readlineSync.question('Your answer: ');
 
     if (youAnswer !== correctAnswer) {
       console.log(
-        `${youAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`
+        `${youAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`,
       );
       console.log(`Let's try again, ${nameUser}!`);
       return;
     }
 
-    console.log("Correct!");
+    console.log('Correct!');
   }
 
   console.log(`Congratulations, ${nameUser}!`);
