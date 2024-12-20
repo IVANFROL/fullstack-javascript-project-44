@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/IVANFROL/fullstack-javascript-project-44?tab=readme-ov-file",
   "dependencies": {
-    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
