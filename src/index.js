@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const roundsCount = 3; // Системная настройка: количество раундов
+const roundsCount = 3; // System setting: number of rounds
 
 export default (generateRounds, gamesDescrip) => {
   console.log('Welcome to the Brain Games!');
